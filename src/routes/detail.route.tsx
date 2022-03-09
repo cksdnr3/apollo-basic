@@ -12,7 +12,6 @@ const GET_MOVIES = gql`
 
 function Detail() {
   const { loading, data } = useQuery(GET_MOVIES);
-  console.log(loading, data);
   return (
     <div>
       <div>detail</div>
